@@ -90,7 +90,7 @@ with col_22:
 		st.write('''[N_MIN, N_MAX] = [{:,}, {:,}]'''.format(n1, n2))
 # START CALCULATION
 start_1= False
-if st.checkbox('SIMULATION 1: START CALCULsATION',key='show', value=False):
+if st.checkbox('SIMULATION 1: START CALCULATION',key='show', value=False):
     start_1 = True
 # Calculation
 if start_1:
